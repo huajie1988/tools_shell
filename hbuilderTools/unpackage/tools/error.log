@@ -1,0 +1,188 @@
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:01:30
+ error message:Traceback (most recent call last):
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 170, in run
+    self.d.get(choice)(self)
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 34, in create
+    self.__createModule()
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 97, in __createModule
+    js_tpls = re.search('{%jspath%}(.*?){%endjspath%}', layout_tmp)
+  File "E:\Python27\lib\re.py", line 146, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or buffer
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:01:30
+ error message:Traceback (most recent call last):
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 170, in run
+    self.d.get(choice)(self)
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 34, in create
+    self.__createModule()
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 97, in __createModule
+    js_tpls = re.search('{%jspath%}(.*?){%endjspath%}', layout_tmp)
+  File "E:\Python27\lib\re.py", line 146, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or buffer
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:01:32
+ error message:Traceback (most recent call last):
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 170, in run
+    self.d.get(choice)(self)
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 34, in create
+    self.__createModule()
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 97, in __createModule
+    js_tpls = re.search('{%jspath%}(.*?){%endjspath%}', layout_tmp)
+  File "E:\Python27\lib\re.py", line 146, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or buffer
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:01:32
+ error message:Traceback (most recent call last):
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 170, in run
+    self.d.get(choice)(self)
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 34, in create
+    self.__createModule()
+  File "E:\xampp\htdocs\jx\unpackage\tools\tools.py", line 97, in __createModule
+    js_tpls = re.search('{%jspath%}(.*?){%endjspath%}', layout_tmp)
+  File "E:\Python27\lib\re.py", line 146, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or buffer
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:01:40
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:01:42
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:01:42
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:11:42
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:11:43
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:11:43
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:35
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================
+
+=============================ERROR  INFO========================================
+
+ time:2015-11-02 13:14:36
+ error message:None
+
+
+================================================================================

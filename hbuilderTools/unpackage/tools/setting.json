@@ -1,0 +1,22 @@
+{
+  "path":"E:/xampp/htdocs/jx",
+  "name": "jx",
+  "environment":"dev",
+  "version": "0.0.1",
+  "tplfolder": "unpackage/tpl",
+  "modulefolder": "js/modules",
+  "globalmodulefolder": "js/common",
+  "globalcssfolder": "css",
+  "viewfolder": "views",
+  "modules": {
+    "login": {
+        "tpl":"aside,header,./body"
+    },
+    "reg": {
+        "tpl":"aside,./content"
+    },
+    "index": {
+        "tpl":"aside,./content"
+    }
+  }
+}
