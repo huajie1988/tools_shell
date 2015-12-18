@@ -1,0 +1,15 @@
+#!/bin/bash
+
+username="username"
+password="password"
+hostname="test.com"
+
+ip=$(curl http://whatismyip.org | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*')
+
+url="http://"$username":"$password"@ddns.oray.com/ph/update?hostname="$hostname"&myip="$ip
+
+result=$(curl $url)
+
+date=$(date "+%Y-%m-%d %H:%M:%S")
+echo '[update time:'$date'] [result:'$result'] [url:'$url']' >> /vagrant/public/ipupdate.log
+
