@@ -11,3 +11,5 @@ getIP：定时更新花生壳IP地址绑定的脚本。（记得原来的花生�
 hbuilderTools：Hbuilder 制作时用于初始化及更新的工具。用于批量初始化和更新文件样式和js
 
 nginx：nginx站点初始化脚本，一键生成站点文件夹并且设置hosts，现在只支持sed。。。( ╯□╰ )
+
+copy.bat：windows下简单的升级包制作脚本，一键生成升级包并进行打包，winrar需要加入环境变量。顺带bat写起来比shell麻烦多了(其实是因为不会←_←)
