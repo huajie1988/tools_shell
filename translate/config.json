@@ -1,0 +1,6 @@
+{
+	"SOURCE_FILE_PATH":"source_url.txt",
+	"TARGET_FILE_PATH":"target_url.txt",
+	"ERROR_LOG_PATH":"error.log",
+	"TANSLATE_URL":"http://dwz.cn/create.php"
+}
