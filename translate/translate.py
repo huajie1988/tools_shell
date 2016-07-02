@@ -18,6 +18,7 @@ class Translate(object):
 	target_file_path=''
 	error_log_path=''
 	trans_url=''
+	tmp_short_urls=[]
 	def __init__(self):
 		super(Translate, self).__init__()
 		config_json=self.readFile('config.json')
@@ -67,6 +68,8 @@ class Translate(object):
 				self.writeLog(err) 
 				short_urls.append(url)
 			line+=1
+			self.tmp_short_urls=short_urls
+			print str(float(line)/len(urls)*100)+"%\n"
 		return short_urls
 
 	def run(self):
@@ -96,13 +99,18 @@ class Translate(object):
 		content="\n=============================ERROR  INFO========================================\n"
 		content+="\n time:"+time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+"\n error message:"+error_msg+"\n"
 		content+="\n================================================================================\n"
-		self.writeFile(self.error_log_path,content,'w')
+		self.writeFile(self.error_log_path,content,'a+')
 
+	def writeCrash(self):
+		self.writeFile(self.target_file_path,"\n".join(self.tmp_short_urls))
 
 
 
 
 if __name__ == '__main__':
 	t=Translate()
-	t.run()
+	try:
+		t.run()
+	except KeyboardInterrupt:
+		t.writeCrash()
 	
